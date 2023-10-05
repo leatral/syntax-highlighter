@@ -1,10 +1,18 @@
 {
     "simpleTerms": {
         "type_identifier": "type",
+        "\"map\"": "type",
+        "\"chan\"": "type",
         "package_identifier": "scope",
 
         "\"var\"": "modifier",
         "\"const\"": "modifier",
+        "\"type\"": "modifier",
+        "\"struct\"": "modifier",
+        "\"import\"": "modifier",
+        "\"package\"": "modifier",
+        "\"func\"": "modifier",
+        "\"interface\"": "modifier",
 
         "interpreted_string_literal": "string",
         "raw_string_literal": "string",
@@ -34,15 +42,6 @@
         "\"defer\"": "control",
         "\"range\"": "control",
         "\"go\"": "control",
-
-        "\"type\"": "operator",
-        "\"struct\"": "operator",
-        "\"import\"": "operator",
-        "\"package\"": "operator",
-        "\"func\"": "operator",
-        "\"interface\"": "operator",
-        "\"map\"": "operator",
-        "\"chan\"": "operator",
 
         "\"+\"": "operator",
         "\"-\"": "operator",
